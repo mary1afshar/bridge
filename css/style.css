@@ -113,8 +113,10 @@ text-transform: lowercase;
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
-    box-shadow: none !important; }
+    box-shadow: none !important; 
     position: absolute;
+  }
+   
   .btn.btn-primary {
     background: #6f42c1;
     border-color: #6f42c1;
@@ -1565,4 +1567,8 @@ figure figcaption {
 
   textarea{
     width:90%;
+  }
+
+  .error {
+    color: red;
   }
