@@ -736,14 +736,16 @@ text-transform: lowercase;
     position: absolute;
     }
 
-    .rec{
+    .hero-v1 .rec{
+    position: relative;
     margin: auto;
+    top: 10px;
+    left: 10px;
     width:90%;
     height:70%;
     background: white;
     border-radius: 2%;
-    z-index: 20;
-    opacity: 100%;
+  
     }
 
 .slide-item, .cover {
