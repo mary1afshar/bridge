@@ -9,7 +9,7 @@
 
 <head>
   <title>meet</title>
-  <link rel="shortcut icon" type="image/png" href="images/logo.png">
+  <link rel="shortcut icon" type="image/png" href="home_images/notebook.svg">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -115,21 +115,29 @@
               <div class="card-column">
                 <!-- add the images from the database -->
                 <div class="card-image-box">
-                  <img class="card-image" src="images/profile-pic.jpeg" alt="stock">
+                  <img class="card-image" src="images/stockimage1.jpg" alt="stock">
+                </div>
+                <div class="icon-row">
+                <button class="card-btn-green" id="card-btn-size"><i class="fa fa-heart"></i></button>
+                  
                 </div>
               </div>
               <div class="card-column">
                 <div class="card-text-box">
                   <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa fa-user card-icons"></i></span> Jena Day (she/her)</li>
-                    <li><span class="fa-li"><i class="fa fa-graduation-cap card-icons"></i></span>University of Goose
+                    <li><span class="fa-li"><i class="fa fa-user card-icons"></i></span> Johannah Doe</li>
+                    <li><span class="fa-li"><i class="fa fa-graduation-cap card-icons"></i></span>University of Comet
                     </li>
-                    <li><span class="fa-li"><i class="fa fa-briefcase card-icons"></i></span> Student</li>
-                    <li><span class="fa-li"><i class="fa fa-map-marker card-icons"></i></span> Waterloo, ON </li>
-                    <li><span class="fa-li"><i class="fa fa-heart card-icons"></i></span> Swimming</li>
+                    <li><span class="fa-li"><i class="fa fa-briefcase card-icons"></i></span> Developer @ CometDev</li>
+                    <li><span class="fa-li"><i class="fa fa-map-marker card-icons"></i></span> Dallas, TX </li>
+                    <li><span class="fa-li"><i class="fa fa-heart card-icons"></i></span> Biking, Fishing </li>
                   </ul>
                 </div>
               </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+            <a id="left" href="meet.php"><button class="card-btn"><i class="fa fa-long-arrow-left"></i></button></a>
+              <a id="right" href="meet2.php"><button class="card-btn"><i class="fa fa-long-arrow-right"></i></button></a>
             </div>
           </div>
         </div>

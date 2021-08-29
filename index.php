@@ -58,7 +58,7 @@
     </div>
 
     
-            
+            <!--
     <header class="site-navbar light js-sticky-header site-navbar-target" role="banner">
       
 
@@ -89,6 +89,7 @@
       </div>
 
     </header>
+-->
                
     <div class="hero-v1">
 
@@ -110,9 +111,6 @@
 
     <div class="rec">
     </div>
-
-
-        
       <div class="container">
         <div class="rec">
           <div class="row align-items-center">

@@ -738,14 +738,16 @@ text-transform: lowercase;
     position: absolute;
     }
 
-    .rec{
+    .hero-v1 .rec{
+    position: relative;
     margin: auto;
+    top: 10px;
+    left: 10px;
     width:90%;
     height:70%;
     background: white;
     border-radius: 2%;
-    z-index: 20;
-    opacity: 100%;
+  
     }
 
 .slide-item, .cover {
@@ -1421,35 +1423,26 @@ figure figcaption {
 .card-btn{
   border: none; 
   color: black;
-  font-size: 25px; 
   cursor: pointer; 
   background: none;
+}
+#card-btn-size{
+  font-size: 50px;
 }
 
 .card-btn:hover {
   color: #A09CEA;
 }
 
-.card-btn-red{
-  border: none; 
-  color: black;
-  font-size: 25px; 
-  cursor: pointer; 
-  background: none;
-}
-.card-btn-red:hover {
-  color: red;
-}
-
 .card-btn-green{
   border: none; 
   color: black;
-  font-size: 25px; 
+  font-size: 50px; 
   cursor: pointer; 
   background: none;
 }
 .card-btn-green:hover {
-  color:green;
+  color:red;
 }
 
 .icon-row{

@@ -93,10 +93,6 @@
       </div>
 
     </header>
-
-    
-
-
     <div class="hero-v1">
       <div class="container">
         <div class="row align-items-center">

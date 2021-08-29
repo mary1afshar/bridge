@@ -118,8 +118,8 @@
                   <img class="card-image" src="images/stockimage.jpg" alt="stock">
                 </div>
                 <div class="icon-row">
-                  <button class="card-btn-green" id="heart"><i class="fa fa-heart"></i></button>
-                  <button class="card-btn-red" id="cross"><i class="fa fa-times-circle"></i></button>
+                  <button class="card-btn-green" id="card-btn-size"><i class="fa fa-heart"></i></button>
+                  
                 </div>
               </div>
               <div class="card-column">
@@ -136,8 +136,8 @@
               </div>
             </div>
             <div class="row align-items-center justify-content-center">
-              <button class="card-btn" id="left"><i class="fa fa-long-arrow-left"></i></button>
-              <button class="card-btn" id="right"><i class="fa fa-long-arrow-right"></i></button>
+            <a id="left" href="meet.php"><button class="card-btn"><i class="fa fa-long-arrow-left"></i></button></a>
+              <a id="right" href="meet1.php"><button class="card-btn"><i class="fa fa-long-arrow-right"></i></button></a>
             </div>
           </div>
         </div>
