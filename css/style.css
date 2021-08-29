@@ -743,6 +743,7 @@ text-transform: lowercase;
     background: white;
     border-radius: 2%;
     z-index: 20;
+    opacity: 100%;
     }
 
 .slide-item, .cover {

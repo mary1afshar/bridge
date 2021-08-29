@@ -1,9 +1,42 @@
+<?php
+session_start();
+$_SESSIONS;
+    $email="";
+    $password="";
+    $email_err="";
+    $password_err="";
+
+    if($_SERVER["REQUEST_METHOD"] == "POST"){
+       if (empty($_POST["email"])) {
+           $email_err = "Email is required";
+       } else {
+           $email = validate_data($_POST["email"]);
+           //check if email is well formed
+           if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+               $email_err = "Invalid email format. Please enter a valid email.";
+           }
+       }
+
+       if(empty($_POST["password"])) {
+           $password_err = "Password is requried";
+       } else {
+           $password = validate_data($_POST["password"]);
+       }
+    }
+
+    function validate_data($data) {
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
+    }
+?>
 <!doctype html>
 <html lang="en">
 
 <head>
-    <title>meet</title>
-    <link rel="shortcut icon" type="image/png" href="home_images/notebook.svg">
+    <title>log in</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -88,14 +121,12 @@
                                 required>
                             <span class="error">*<br><?php echo $password_err;?> </span><br><br>
                             <!--Log in-->
-                            <a href="meet.html"><input class="button" type="submit" value="LOGIN"></a>
+                            <a href="meet.php"><input class="button" value="LOGIN"></a>
+                            <!--type="submit" -->
                         </form>
                     </div>
                 </div>
-            </div>
-
-
-            
+            </div> 
 
         </div>
 
