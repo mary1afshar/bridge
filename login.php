@@ -45,12 +45,9 @@ $_SESSIONS;
             }
         } else {
             $server_err= "Wrong password or email1";
-        }
-        
-    }  else {
-        $server_err = "Wrong password or email";
-    }
-
+        }  
+    } 
+    
     function validate_data($data) {
         $data = trim($data);
         $data = stripslashes($data);

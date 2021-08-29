@@ -1,6 +1,10 @@
 <?php
   session_start();
   $_SESSION;
+
+  // include("connection.php");
+  // include("functions.php");
+  // $user_data = check_login($connect);
 ?>
 
 <!doctype html>
@@ -119,12 +123,14 @@
                 <img src= "images\undraw_Swipe_profiles_re_tvqm.svg" alt="Image" class="img-fluid">
               <p></p>
               <i>bridging the gap, building a community of women in tech ✨</i>
-              <p></p>
+    
+              <br>
               
             </div>
             <div class="col-md-6">
               <div class="homepage-btn">
-                <h1 class="heading mb-3">bridge+</h1>
+              <figure class="illustrations">
+                <img class="img-size" src= "images\logo2.png">
                 <a href="login.php"><button class="button">LOGIN</button></a>
                 <P></P>
                 <a href="register.php"><button class="button">REGISTER</button></a>
