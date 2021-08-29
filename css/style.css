@@ -710,8 +710,17 @@ text-transform: lowercase;
     }
   .hero-v1 .illustration-2 {
     position: relative;
-    top: 1500px;
+    top: 100px;
     position: absolute; }
+
+    .hero-v1 .illustrations {
+      position: relative;
+      top: 20px;
+      width: 100%;
+      height: 100%; 
+      margin: auto;
+      
+    }
 
     .hero-v1 .blob1 {
     top: 0px;
@@ -736,6 +745,12 @@ text-transform: lowercase;
     right: 0px;
     opacity: 60%;
     position: absolute;
+    }
+
+    .img-size {
+      width:25rem;
+      height:14rem;
+      
     }
 
     .hero-v1 .rec{
@@ -1459,17 +1474,18 @@ figure figcaption {
 }
 
 .card-text-box{
-  padding-top: 25%;
+  padding-top: 20%;
+  padding-bottom: 20%;
   text-align: center;
   padding-right: 80%;
-  font-size: 30px; 
+  font-size: 25px; 
   font-family: 'mulish';
   color: #000;
 }
 
 .fa-ul{
   text-align: left;
-  width: 24rem;
+  width: 20rem;
 }
 
 /*homepage*/
