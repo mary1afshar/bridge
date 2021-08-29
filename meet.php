@@ -118,8 +118,8 @@
                   <img class="card-image" src="images/stockimage.jpg" alt="stock">
                 </div>
                 <div class="icon-row">
-                  <button class="card-btn" id="card-btn-size"><i class="fa fa-heart"></i></button>
-                  <button class="card-btn" id="card-btn-size"><i class="fa fa-times-circle"></i></button>
+                  <button class="card-btn-green" id="card-btn-size"><i class="fa fa-heart"></i></button>
+                  
                 </div>
               </div>
               <div class="card-column">

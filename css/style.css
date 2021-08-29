@@ -1426,33 +1426,22 @@ figure figcaption {
   background: none;
 }
 #card-btn-size{
-  font-size: 25px;
+  font-size: 50px;
 }
 
 .card-btn:hover {
   color: #A09CEA;
 }
 
-.card-btn-red{
-  border: none; 
-  color: black;
-  font-size: 25px; 
-  cursor: pointer; 
-  background: none;
-}
-.card-btn-red:hover {
-  color: red;
-}
-
 .card-btn-green{
   border: none; 
   color: black;
-  font-size: 25px; 
+  font-size: 50px; 
   cursor: pointer; 
   background: none;
 }
 .card-btn-green:hover {
-  color:green;
+  color:red;
 }
 
 .icon-row{
