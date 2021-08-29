@@ -98,7 +98,7 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mr-auto text-center text-lg-left">
             <iframe width="1100"
-              height="800"
+              height="630"
               border-radius="10"
               src="static.php">
             </iframe>

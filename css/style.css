@@ -329,11 +329,12 @@ text-transform: lowercase;
 
 /* Navbar */
 .logo img {
+    padding-left: 20px;
     margin-top: 0px;
     margin-bottom: 10px;
     float: left;
-    width: 175px;
-    height: 175px;
+    width: 160px;
+    height: 110px;
   }
 
 .logo{
@@ -1599,10 +1600,10 @@ figure figcaption {
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 810px;
+    width: 760px;
     text-align: left;
     outline: none;
-    font-size: 18px;
+    font-size: 24px;
     border-radius: 10px 10px 0px 0px;
     border: 1px solid black;
     border-bottom: none;
@@ -1616,7 +1617,7 @@ figure figcaption {
   } */
   
   .full-chat-block {
-    width: 810px;
+    width: 760px;
     background: white;
     text-align: center;
     overflow: auto;
@@ -1626,7 +1627,7 @@ figure figcaption {
   }
   
   .outer-container {
-    min-height: 720px;
+    min-height: 545px;
     bottom: 0%;
     position: relative;
   }
@@ -1693,14 +1694,14 @@ figure figcaption {
   .userText {
     color: white;
     font-family: Helvetica;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     text-align: right;
     clear: both;
   }
   
   .userText span {
-    line-height: 1.5em;
+    line-height: 1.6em;
     display: inline-block;
     /* background: rgba(6, 69, 185, 1); */
     background-image: linear-gradient(
@@ -1721,12 +1722,12 @@ figure figcaption {
     color: #000;
     font-family: Helvetica;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 20px;
     text-align: left;
   }
   
   .botText span {
-    line-height: 1.5em;
+    line-height: 1.6em;
     display: inline-block;
     /* background: rgb(174, 221, 255); */
     background-image: linear-gradient(
@@ -1800,8 +1801,8 @@ figure figcaption {
     overflow:hidden;
   }
   aside{
-    width:260px;
-    height:800px;
+    width:310px;
+    height:630px;
     background-image: linear-gradient(
       120deg,
       rgba(174, 221, 255, 1),
@@ -1833,23 +1834,28 @@ figure figcaption {
     color:#fff;
     background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1940306/ico_search.png);
     background-repeat:no-repeat;
-    background-position:170px;
+    background-position:210px;
     background-size:40px;
   }
   aside input::placeholder{
     color:#fff;
   }
   aside ul{
-    padding-left:0;
+    padding-left:10;
     margin:0;
     list-style-type:none;
     overflow-y:scroll;
     height:690px;
+    width: 310px;
   }
   aside li{
     padding:10px 0;
+
   }
   aside li:hover{
+    background-color:#ccb4eb;
+  }
+  .talking_to{
     background-color:#ccb4eb;
   }
   h2,h3{
@@ -1859,22 +1865,29 @@ figure figcaption {
     border-radius:50%;
     margin-left:20px;
     margin-right:8px;
+    width:30px
   }
   aside li div{
     display:inline-block;
-    vertical-align:top;
+    vertical-align:middle;
     margin-top:12px;
   }
   aside li h2{
-    font-size:14px;
+    font-size:17px;
     color:rgb(0, 0, 0);
     font-weight:normal;
     margin-bottom:5px;
   }
   aside li h3{
-    font-size:12px;
+    font-size:14px;
     color:#193485;
     font-weight:normal;
+  }
+  .conversation_with{
+    border-radius:50%;
+    margin-left:20px;
+    margin-right:8px;
+    width:37px
   }
   
   .status{

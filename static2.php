@@ -56,32 +56,32 @@
 			<input type="text" placeholder="search">
 		</header>
 		<ul>
-        <a href="" alt="">
-            <li class="talking_to">
-				<img src="images/stockimage3.jpg" alt="">
-				<div>
-					<h2>Becky Fetcher</h2>
-					<h3>
-						<span class="status green"></span>
-						online
-					</h3>
-				</div>
-			</li>
-</a>
-<a href="static1.php" alt="">
-			<li>
-				<img src="images/stockimage1.jpg" alt="">
-				<div>
-					<h2>Johannah Doe</h2>
-					<h3>
-						<span class="status green"></span>
-						online
-					</h3>
-				</div>
-			</li>
-</a>
-<a href="static2.php" alt="">
-			<li>
+            <a href="static.php" alt="">
+                <li>
+                    <img src="images/stockimage3.jpg" alt="">
+                    <div>
+                        <h2>Becky Fetcher</h2>
+                        <h3>
+                            <span class="status green"></span>
+                            online
+                        </h3>
+                    </div>
+                </li>
+            </a>
+            <a href="static1.php" alt="">
+                <li>
+                    <img src="images/stockimage1.jpg" alt="">
+                    <div>
+                        <h2>Johannah Doe</h2>
+                        <h3>
+                            <span class="status green"></span>
+                            online
+                        </h3>
+                    </div>
+                </li>
+            </a>
+            <a href="" alt="">
+			<li class="talking_to">
 				<img src="images/stockimage2.jpg" alt="">
 				<div>
 					<h2>Rebecca Johnson</h2>
@@ -96,8 +96,8 @@
     <div class="chat-bar-collapsible">
         
         <button id="chat-button" type="button" class="collapsible">
-            <img class="conversation_with"src="images/stockimage3.jpg" alt="">
-            Becky Fetcher
+            <img class="conversation_with"src="images/stockimage2.jpg" alt="">
+            Rebecca Jognson
             <!-- Chat icon -->
             <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
             
