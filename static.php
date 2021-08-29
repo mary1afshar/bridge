@@ -100,7 +100,7 @@
     <div class="chat-bar-collapsible">
         
         <button id="chat-button" type="button" class="collapsible">
-            Bridge the Gap!
+            Connect With Bridge - Chat With Me!
             <!-- Chat icon -->
             <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
             
