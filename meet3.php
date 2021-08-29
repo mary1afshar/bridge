@@ -9,7 +9,7 @@
 
 <head>
   <title>meet</title>
-  <link rel="shortcut icon" type="image/png" href="images/logo.png">
+  <link rel="shortcut icon" type="image/png" href="home_images/notebook.svg">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -73,10 +73,10 @@
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li class="active">
-                <li><a href="messages.php" class="nav-link">messages</a></li>
-                <li><a href="meet.php" class="nav-link">meet</a></li>
-                <li><a href="profile.php" class="nav-link">profile</a></li>
-                <a href="index.php" class="nav-link">sign out</a></li>
+                <li><a href="messages.html" class="nav-link">messages</a></li>
+                <li><a href="meet.html" class="nav-link">meet</a></li>
+                <li><a href="profile.html" class="nav-link">profile</a></li>
+                <a href="index.html" class="nav-link">sign out</a></li>
               </ul>
             </nav>
           </div>
@@ -115,7 +115,7 @@
               <div class="card-column">
                 <!-- add the images from the database -->
                 <div class="card-image-box">
-                  <img class="card-image" src="images/stockimage.jpg" alt="stock">
+                  <img class="card-image" src="images/stockimage3.jpg" alt="stock">
                 </div>
                 <div class="icon-row">
                   <button class="card-btn" id="card-btn-size"><i class="fa fa-heart"></i></button>
@@ -125,19 +125,19 @@
               <div class="card-column">
                 <div class="card-text-box">
                   <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa fa-user card-icons"></i></span> Jane Doe</li>
-                    <li><span class="fa-li"><i class="fa fa-graduation-cap card-icons"></i></span>University of Goose
+                    <li><span class="fa-li"><i class="fa fa-user card-icons"></i></span> Becky Fetcher</li>
+                    <li><span class="fa-li"><i class="fa fa-graduation-cap card-icons"></i></span>University of Arizona
                     </li>
-                    <li><span class="fa-li"><i class="fa fa-briefcase card-icons"></i></span> Developer @ Goose</li>
-                    <li><span class="fa-li"><i class="fa fa-map-marker card-icons"></i></span> Waterloo, ON </li>
-                    <li><span class="fa-li"><i class="fa fa-heart card-icons"></i></span> Swimming, Cooking </li>
+                    <li><span class="fa-li"><i class="fa fa-briefcase card-icons"></i></span> UI/UX Developer at BoA</li>
+                    <li><span class="fa-li"><i class="fa fa-map-marker card-icons"></i></span> Phoenix, AZ </li>
+                    <li><span class="fa-li"><i class="fa fa-heart card-icons"></i></span> Art, Running </li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="row align-items-center justify-content-center">
-            <a id="left" href="meet.php"><button class="card-btn"><i class="fa fa-long-arrow-left"></i></button></a>
-              <a id="right" href="meet1.php"><button class="card-btn"><i class="fa fa-long-arrow-right"></i></button></a>
+            <a id="left" href="meet2.php"><button class="card-btn"><i class="fa fa-long-arrow-left"></i></button></a>
+              <a id="right" href="meet.php"><button class="card-btn"><i class="fa fa-long-arrow-right"></i></button></a>
             </div>
           </div>
         </div>

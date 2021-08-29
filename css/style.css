@@ -113,8 +113,9 @@ text-transform: lowercase;
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
-    box-shadow: none !important; }
+    box-shadow: none !important; 
     position: absolute;
+  }
   .btn.btn-primary {
     background: #6f42c1;
     border-color: #6f42c1;
@@ -1421,9 +1422,11 @@ figure figcaption {
 .card-btn{
   border: none; 
   color: black;
-  font-size: 25px; 
   cursor: pointer; 
   background: none;
+}
+#card-btn-size{
+  font-size: 25px;
 }
 
 .card-btn:hover {
