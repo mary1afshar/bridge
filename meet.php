@@ -9,7 +9,7 @@
 
 <head>
   <title>meet</title>
-  <link rel="shortcut icon" type="image/png" href="home_images/notebook.svg">
+  <link rel="shortcut icon" type="image/png" href="images/logo.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -73,10 +73,10 @@
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li class="active">
-                <li><a href="messages.html" class="nav-link">messages</a></li>
-                <li><a href="meet.html" class="nav-link">meet</a></li>
-                <li><a href="profile.html" class="nav-link">profile</a></li>
-                <a href="index.html" class="nav-link">sign out</a></li>
+                <li><a href="messages.php" class="nav-link">messages</a></li>
+                <li><a href="meet.php" class="nav-link">meet</a></li>
+                <li><a href="profile.php" class="nav-link">profile</a></li>
+                <a href="index.php" class="nav-link">sign out</a></li>
               </ul>
             </nav>
           </div>
@@ -118,8 +118,8 @@
                   <img class="card-image" src="images/stockimage.jpg" alt="stock">
                 </div>
                 <div class="icon-row">
-                  <button class="card-btn" id="heart"><i class="fa fa-heart"></i></button>
-                  <button class="card-btn" id="cross"><i class="fa fa-times-circle"></i></button>
+                  <button class="card-btn-green" id="heart"><i class="fa fa-heart"></i></button>
+                  <button class="card-btn-red" id="cross"><i class="fa fa-times-circle"></i></button>
                 </div>
               </div>
               <div class="card-column">

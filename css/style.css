@@ -1425,7 +1425,29 @@ figure figcaption {
 }
 
 .card-btn:hover {
-  color: purple;
+  color: #A09CEA;
+}
+
+.card-btn-red{
+  border: none; 
+  color: black;
+  font-size: 25px; 
+  cursor: pointer; 
+  background: none;
+}
+.card-btn-red:hover {
+  color: red;
+}
+
+.card-btn-green{
+  border: none; 
+  color: black;
+  font-size: 25px; 
+  cursor: pointer; 
+  background: none;
+}
+.card-btn-green:hover {
+  color:green;
 }
 
 .icon-row{
