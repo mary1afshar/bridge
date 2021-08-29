@@ -130,7 +130,7 @@
             <div class="col-md-6">
               <div class="homepage-btn">
               <figure class="illustrations">
-                <img class="img-size" src= "images\logo2.png">
+                <img class="img-size" src= "images\logo.png">
                 <a href="login.php"><button class="button">LOGIN</button></a>
                 <P></P>
                 <a href="register.php"><button class="button">REGISTER</button></a>

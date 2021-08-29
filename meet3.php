@@ -118,7 +118,7 @@
                   <img class="card-image" src="images/stockimage3.jpg" alt="stock">
                 </div>
                 <div class="icon-row">
-                <button class="card-btn-green" id="card-btn-size"><i class="fa fa-heart"></i></button>
+                <a href="messages.php"><button class="card-btn-green" id="card-btn-size"><i class="fa fa-heart"></i></button></a>
                 </div>
               </div>
               <div class="card-column">
