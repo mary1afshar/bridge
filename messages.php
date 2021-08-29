@@ -97,18 +97,12 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 mr-auto text-center text-lg-left">
-            <iframe width="100%"
-              height="430"
+            <iframe width="1100"
+              height="800"
               border-radius="10"
-              src="contact_list.php">
+              src="static.php">
             </iframe>
-
-
-          </div>
-          <div class="col-lg-6">
-            <p>Chat with Liv below!</p>
-         
-          </div>
+        </div>
           
         </div>
       </div>
@@ -131,6 +125,8 @@
   <script src="js/jquery.sticky.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
 
+  <script src="responses.js"></script>
+  <script src="chat.js"></script>
 
   <script src="js/main.js"></script>
 
