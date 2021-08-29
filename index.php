@@ -74,10 +74,10 @@
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li class="active">
-                <li><a href="messages.php" class="nav-link">messages</a></li>
-                <li><a href="meet.php" class="nav-link">meet</a></li>
-                <li><a href="profile.php" class="nav-link">profile</a></li>
-                <a href="index.php" class="nav-link">sign out</a></li>
+                <li><a href="messages.html" class="nav-link">messages</a></li>
+                <li><a href="meet.html" class="nav-link">meet</a></li>
+                <li><a href="profile.html" class="nav-link">profile</a></li>
+                <a href="index.html" class="nav-link">sign out</a></li>
               </ul>
             </nav>
           </div>
@@ -89,13 +89,7 @@
       </div>
 
     </header>
-     
-
-    
-      
-    
-            
-         
+               
     <div class="hero-v1">
 
       <div class="blob1">
@@ -121,32 +115,27 @@
 
         
       <div class="container">
-        
-        <div class="row align-items-center">
-          <div class="col-lg-6 mr-auto text-center text-lg-left">
-            <figure class="illustration">
-              <img src= "images\undraw_Swipe_profiles_re_tvqm.svg" alt="Image" class="img-fluid">
-            <p></p>
-            <i>bridging the gap, building a community of women in tech ✨</i>
-            <p></p>
-            
+        <div class="rec">
+          <div class="row align-items-center">
+            <div class="col-lg-6 mr-auto text-center text-lg-left">
+              <figure class="illustration">
+                <img src= "images\undraw_Swipe_profiles_re_tvqm.svg" alt="Image" class="img-fluid">
+              <p></p>
+              <i>bridging the gap, building a community of women in tech ✨</i>
+              <p></p>
+              
+            </div>
+            <div class="col-md-6">
+              <div class="homepage-btn">
+                <h1 class="heading mb-3">bridge+</h1>
+                <a href="login.html"><button class="button">LOGIN</button></a>
+                <P></P>
+                <a href="register.html"><button class="button">REGISTER</button></a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-6">
-            <h1 class="heading mb-3">bridge+</h1>
-            <a href="./php/login.php">Log in </a>
-            <br>
-            <a href="./php/register.php"> Register Now </a>
-
-            <!-- <p>email</p>
-            <p>password</p>
-            <p>login</p>
-            <p>continue with google</p> -->
-            <!-- 
-            
-            -->
-          </div>
-          <div class="col-lg-6"></div>
         </div>
+        
       </div>
     </div>
     

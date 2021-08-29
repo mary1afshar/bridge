@@ -656,11 +656,12 @@ text-transform: lowercase;
 .hero-v1 {
   padding: 10rem 0 8rem 0;
   height: 100%;
+  width: 100%;
   background: #EBF4FF;
-  overflow: hidden; }
+  overflow: hidden;
+ }
   .hero-v1 .heading {
     position: relative;
-    left: 80px;
     top: -60px;
     width: 346px;
     height: 254px;
@@ -711,45 +712,37 @@ text-transform: lowercase;
     position: absolute; }
 
     .hero-v1 .blob1 {
-      position: relative;
     top: 0px;
+    opacity: 60%;
     position: absolute;
     }
 
     .hero-v1 .blob2 {
-      position: relative;
     bottom: 40px;
     left: 50px;
     position: absolute;
     }
 
     .hero-v1 .blob3 {
-      position: relative;
     top: 80px;
     right: 20px;
     position: absolute;
     }
 
     .hero-v1 .blob4 {
-    position: relative;
     bottom: 0px;
     right: 0px;
+    opacity: 60%;
     position: absolute;
     }
 
-    .hero-v1 .rec{
-    position: relative;
-    top: 150px;
-    left: 100px;
+    .rec{
+    margin: auto;
     width:90%;
     height:70%;
     background: white;
-    border-bottom-right-radius: 5%;
-    border-bottom-left-radius: 5%;
-    border-top-right-radius: 5%;
-    border-top-left-radius: 5%;
-    
-    position: absolute;
+    border-radius: 2%;
+    z-index: 20;
     }
 
 .slide-item, .cover {
@@ -1377,14 +1370,13 @@ figure figcaption {
 
 .button {
   border: none;
-  outline: 0;
   display: inline-block;
   padding: 8px;
   color:  white; 
   background-color:  #b59ae7; ;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 80%;
 }
 
 .button:hover {
@@ -1397,6 +1389,7 @@ figure figcaption {
   height: 65%;
   background: white;
   border-radius: 10px;
+  z-index: 10;
 }
 
 .card-column {
@@ -1452,5 +1445,101 @@ figure figcaption {
   text-align: center;
   padding-right: 80%;
   font-size: 30px; 
+  font-family: 'mulish';
   color: #000;
 }
+
+.fa-ul{
+  text-align: left;
+  width: 24rem;
+}
+
+/*homepage*/
+.homepage-btn{
+  padding-bottom: 5rem;
+}
+
+/*login*/
+.login-container{
+  height:51rem;
+  background-color: #EBF4FF;
+}
+.blob1-login {
+  top: 0px;
+  opacity: 60%;
+  position: absolute;
+  }
+
+.blob2-login {
+  bottom: 40px;
+  left: 50px;
+  position: absolute;
+  }
+
+.blob3-login {
+  top: 80px;
+  right: 20px;
+  position: absolute;
+  }
+
+.blob4-login {
+  bottom: 0px;
+  right: 0px;
+  opacity: 60%;
+  position: absolute;
+  }
+
+  .login-box{
+    width: 50%;
+    height: 70%;
+    background: white;
+    border-radius: 10px;
+    z-index: 10;
+    margin-top: 7rem;
+    padding: 5rem;
+  }
+
+  /*register*/
+.register-container{
+  height:135rem;
+  background-color: #EBF4FF;
+}
+
+.register-box{
+  width: 70%;
+  height: 70%;
+  background: white;
+  border-radius: 10px;
+  z-index: 10;
+  margin-top: 10rem;
+  padding: 5rem;
+}
+
+.blob1-register {
+  top: 1100px;
+  opacity: 60%;
+  position: absolute;
+  }
+
+.blob2-register {
+  top: 1900px;
+  left: 50px;
+  position: absolute;
+  }
+
+.blob3-register {
+  top: 1300px;
+  right: 20px;
+  position: absolute;
+  }
+
+.blob4-register {
+  top: 1850px;
+  right: 0px;
+  opacity: 60%;
+  position: absolute;
+  }
+
+  textarea{
+    width:90%;
+  }
