@@ -115,18 +115,20 @@
               <div class="card-column">
                 <!-- add the images from the database -->
                 <div class="card-image-box">
-                  <img class="card-image" src="images/profile-pic.jpeg" alt="stock">
+                  <img class="card-image" src="images/MaryamAfshar_Headshot.jpg" alt="stock">
                 </div>
               </div>
               <div class="card-column">
                 <div class="card-text-box">
+                
                   <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa fa-user card-icons"></i></span> Jena Day (she/her)</li>
-                    <li><span class="fa-li"><i class="fa fa-graduation-cap card-icons"></i></span>University of Goose
+                  <p>Your Profile:</p>
+                    <li><span class="fa-li"><i class="fa fa-user card-icons"></i></span> Maryam Afshar (she/her)</li>
+                    <li><span class="fa-li"><i class="fa fa-graduation-cap card-icons"></i></span>University of Waterloo
                     </li>
-                    <li><span class="fa-li"><i class="fa fa-briefcase card-icons"></i></span> Student</li>
+                    <li><span class="fa-li"><i class="fa fa-briefcase card-icons"></i></span> CS Student</li>
                     <li><span class="fa-li"><i class="fa fa-map-marker card-icons"></i></span> Waterloo, ON </li>
-                    <li><span class="fa-li"><i class="fa fa-heart card-icons"></i></span> Swimming</li>
+                    <li><span class="fa-li"><i class="fa fa-heart card-icons"></i></span> Swimming, Diving</li>
                   </ul>
                 </div>
               </div>
