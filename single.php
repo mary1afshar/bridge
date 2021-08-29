@@ -6,7 +6,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Covid &mdash; Website Template by Colorlib</title>
+  <title>Sign in</title>
+  <link rel="shortcut icon" type="image/png" href="images/logo.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
 

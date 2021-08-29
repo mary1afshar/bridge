@@ -8,11 +8,12 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
+
  
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
     <script src="script.js"></script>
   <title>Dashboard</title>
-  <link rel="shortcut icon" type="image/png" href="home_images/notebook.svg">
+  <link rel="shortcut icon" type="image/png" href="images/logo.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
 

@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
   <title>Bridge</title>
-  <link rel="shortcut icon" type="image/png" href="home_images/notebook.svg">
+  <link rel="shortcut icon" type="image/png" href="images/logo.png">
 
   
   <meta charset="utf-8">
