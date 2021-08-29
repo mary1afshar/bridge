@@ -1,10 +1,12 @@
 <?php
 session_start();
+    include("connection.php");
 $_SESSIONS;
     $email="";
     $password="";
     $email_err="";
     $password_err="";
+    $server_err="";
 
     if($_SERVER["REQUEST_METHOD"] == "POST"){
        if (empty($_POST["email"])) {
@@ -22,6 +24,31 @@ $_SESSIONS;
        } else {
            $password = validate_data($_POST["password"]);
        }
+    }
+    //checking if email and password is in db
+    if(!empty($_POST["email"]) and !empty($_POST["password"])) {
+        $password = validate_data($_POST["password"]);
+        $email = validate_data($_POST["email"]);
+        $query = "select * from bridge_infomatics where email='$email' limit 1";
+        $result = mysqli_query($connect, $query);
+
+        if($result) {
+            if($result && mysqli_num_rows($result) > 0) {
+                $user_data = mysqli_fetch_assoc($result);
+                if($user_data['password'] === $password) {
+                    $_SESSION['user_id'] = $user_data['user_id'];
+                    header("Location: meet.php");
+                    die;
+                } else {
+                    $server_err ="Wrong password or email";
+                }
+            }
+        } else {
+            $server_err= "Wrong password or email1";
+        }
+        
+    }  else {
+        $server_err = "Wrong password or email";
     }
 
     function validate_data($data) {
@@ -107,22 +134,23 @@ $_SESSIONS;
                 <div class="row align-items-center justify-content-center">
                     <div class="login-box">
 
-                        <form action="action_page.php">
+                        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
                             <label for="email">
                                 <h2>Email</h2>
                             </label><br>
-                            <input type="text" name="email" id="email" placeholder="Enter your email" required>
-                            <span class="error">*<br><?php echo $email_err; ?> </span><br><br>
+                            <input type="text" name="email" id="email" placeholder="Enter your email">
+                            <span class="error">*<br><?php echo $email_err; ?> </span><br>
                             <!--Password-->
                             <label for="password">
                                 <h2>Password</h2>
                             </label><br>
-                            <input type="password" name="password" id="password" placeholder="Enter your password"
-                                required>
-                            <span class="error">*<br><?php echo $password_err;?> </span><br><br>
+                            <input type="password" name="password" id="password" placeholder="Enter your password">
+                            <span class="error">*<br><?php echo $password_err;?> </span><br>
                             <!--Log in-->
-                            <a href="meet.php"><input class="button" value="LOGIN"></a>
-                            <!--type="submit" -->
+                            <span class="error"><?php echo $server_err;?> </span><br>
+                            <a href="meet.php"><input class="button" type="submit" value="LOGIN"></a>
+     
+                            
                         </form>
                     </div>
                 </div>
