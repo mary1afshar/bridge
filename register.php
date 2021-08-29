@@ -53,7 +53,7 @@ $user_data = check_login($connect);
         } else {
             $username= validate_register_data($_POST["username"]);
             if (!preg_match("/^[a-zA-Z-' ]*$/",$username)) {
-                 $username= "Only letters and white space allowed";
+                 $username_err= "Only letters and white space allowed";
             }
         }
         //email
