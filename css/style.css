@@ -737,13 +737,16 @@ text-transform: lowercase;
     position: absolute;
     }
 
-    .rec{
+    .hero-v1 .rec{
+    position: relative;
     margin: auto;
+    top: 10px;
+    left: 10px;
     width:90%;
     height:70%;
     background: white;
     border-radius: 2%;
-    z-index: 20;
+  
     }
 
 .slide-item, .cover {
@@ -1428,6 +1431,28 @@ figure figcaption {
 
 .card-btn:hover {
   color: #A09CEA;
+}
+
+.card-btn-red{
+  border: none; 
+  color: black;
+  font-size: 25px; 
+  cursor: pointer; 
+  background: none;
+}
+.card-btn-red:hover {
+  color: red;
+}
+
+.card-btn-green{
+  border: none; 
+  color: black;
+  font-size: 25px; 
+  cursor: pointer; 
+  background: none;
+}
+.card-btn-green:hover {
+  color:green;
 }
 
 .icon-row{

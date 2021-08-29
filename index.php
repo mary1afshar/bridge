@@ -58,7 +58,7 @@
     </div>
 
     
-            
+            <!--
     <header class="site-navbar light js-sticky-header site-navbar-target" role="banner">
       
 
@@ -74,10 +74,10 @@
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li class="active">
-                <li><a href="messages.html" class="nav-link">messages</a></li>
-                <li><a href="meet.html" class="nav-link">meet</a></li>
-                <li><a href="profile.html" class="nav-link">profile</a></li>
-                <a href="index.html" class="nav-link">sign out</a></li>
+                <li><a href="messages.php" class="nav-link">messages</a></li>
+                <li><a href="meet.php" class="nav-link">meet</a></li>
+                <li><a href="profile.php" class="nav-link">profile</a></li>
+                <a href="index.php" class="nav-link">sign out</a></li>
               </ul>
             </nav>
           </div>
@@ -89,6 +89,7 @@
       </div>
 
     </header>
+-->
                
     <div class="hero-v1">
 
@@ -109,11 +110,7 @@
     </div>
 
     <div class="rec">
-      
     </div>
-
-
-        
       <div class="container">
         <div class="rec">
           <div class="row align-items-center">
@@ -128,9 +125,9 @@
             <div class="col-md-6">
               <div class="homepage-btn">
                 <h1 class="heading mb-3">bridge+</h1>
-                <a href="login.html"><button class="button">LOGIN</button></a>
+                <a href="login.php"><button class="button">LOGIN</button></a>
                 <P></P>
-                <a href="register.html"><button class="button">REGISTER</button></a>
+                <a href="register.php"><button class="button">REGISTER</button></a>
               </div>
             </div>
           </div>

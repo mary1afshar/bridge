@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>meet</title>
-    <link rel="shortcut icon" type="image/png" href="home_images/notebook.svg">
+    <title>register</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -65,10 +65,10 @@
 
                             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                                 <li class="active">
-                                <li><a href="messages.html" class="nav-link">messages</a></li>
-                                <li><a href="meet.html" class="nav-link">meet</a></li>
-                                <li><a href="profile.html" class="nav-link">profile</a></li>
-                                <a href="index.html" class="nav-link">sign out</a></li>
+                                <li><a href="messages.php" class="nav-link">messages</a></li>
+                                <li><a href="meet.php" class="nav-link">meet</a></li>
+                                <li><a href="profile.php" class="nav-link">profile</a></li>
+                                <a href="index.php" class="nav-link">sign out</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -97,13 +97,6 @@
                 <img src="images\blob3.png" alt="Image" class="img-fluid">
             </div>
 
-            <div class="blob4-login">
-                <img src="images\blob4.png" alt="Image" class="img-fluid">
-            </div>
-
-            <div class="blob1-register">
-                <img src="images\blob1.png" alt="Image" class="img-fluid">
-            </div>
 
             <div class="blob2-register">
                 <img src="images\blob2.png" alt="Image" class="img-fluid">
@@ -204,7 +197,7 @@
                                 <textarea name="fun_facts" rows="10" cols="20">Some fun facts about You!</textarea><br>
                             </fieldset>
                             <br>
-                            <a href="meet.html"><input class="button" type="submit" value="SUBMIT"></a>
+                            <a href="meet.php"><input class="button" type="submit" value="SUBMIT"></a>
 
                         </form>
                     </div>

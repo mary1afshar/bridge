@@ -62,7 +62,7 @@
         <div class="row align-items-center">
             <div class="logo">
               <img src="home_images/notebook.svg" alt="logo" />
-              StudyBuddy
+              Bridge
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
