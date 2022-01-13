@@ -2,6 +2,8 @@
 
 Bridge+ is a web application that allows female and non-binary professionals to see meet and chat with other women in the tech field. Similar to Tinder, users have the chance to swipe through various profiles to learn about interests, occupations, and universities and decide whether they want to chat. Bridge+ aims to build a community of women in tech, bridging the gap.
 
+#### Check out our product pitch: [here](https://youtu.be/N2o4RNbqb-k)
+
 ![bridge](https://github.com/mary1afshar/bridge/blob/main/readme_images/indexx.png)
 
 # how it works
@@ -14,6 +16,6 @@ It's easy as 1 2 3, first create an account on Bridge+ which will ask for your n
 ![bridge](https://github.com/mary1afshar/bridge/blob/main/readme_images/meet2.PNG)
 
 
-With bringe+, we are bridging the gap and building a strong community of women in tech ✨
+With Bridge+, we are bridging the gap and building a strong community of women in tech ✨
 
 
